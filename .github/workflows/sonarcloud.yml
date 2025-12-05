@@ -43,7 +43,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn clean verify sonar:sonar \
-            -Dsonar.projectKey=EmilioCueULL_ch20-tdd \
-            -Dsonar.organization=EmilioCueULL \
+            -Dsonar.projectKey=emiliocueull_ch20-tdd \
+            -Dsonar.organization=emiliocueull \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${SONAR_TOKEN}
