@@ -1,0 +1,5 @@
+com/manning/junitbook/airport/Flight.class
+com/manning/junitbook/airport/BusinessFlight.class
+com/manning/junitbook/airport/EconomyFlight.class
+com/manning/junitbook/airport/Passenger.class
+com/manning/junitbook/airport/PremiumFlight.class
