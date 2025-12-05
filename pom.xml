@@ -172,7 +172,7 @@
       </plugins>
     </pluginManagement>
     <plugins>
-      <!-- Plugin JaCoCo para cobertura -->
+      <!-- JaCoCo plugin for code coverage -->
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
