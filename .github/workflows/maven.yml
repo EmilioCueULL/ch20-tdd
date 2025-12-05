@@ -53,8 +53,8 @@ jobs:
           mvn --batch-mode -V \
               clean verify sonar:sonar \
               -DskipTests=false \
-              -Dsonar.projectKey=dcastellnieves_my-app \
-              -Dsonar.organization=dcastellnieves \
+              -Dsonar.projectKey=EmilioCueULL_ch20-tdd \
+              -Dsonar.organization=EmilioCueULL \
               -Dsonar.host.url=https://sonarcloud.io \
               -Dsonar.login=${SONAR_TOKEN} \
               -Dsonar.qualitygate.wait=true
